@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра  "Крестики-Нолики"</title>
+    <link rel="stylesheet" href="ticToe.css">
+</head>
+<body>
+    <h1>Крестики-нолики</h1>
+    <div class="list">
+    <label for="playerCount">Количество игроков</label>
+      <select id="playerCount">
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+  </div>
+  <div class="winRules">
+    <label for="winThreshold">Выберите правило выигрыша (от 3 до 7):</label>
+    <input type="number" id="winThreshold" name="winThreshold" min="3" max="7" value="3">
+  </div>
+  <button id="combineButton">Начать</button>
+    <table id="field"></table>
+    <p id="result"></p>
+</body>
+<script src="ticToe.js"></script>
+</html>

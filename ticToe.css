@@ -1,0 +1,58 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  color: #68c0f3;
+}
+.list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5pt;
+}
+
+label {
+  font-size: 20pt;
+  color:  #68c0f3;
+  margin-right: 10pt;
+}
+select {
+  font-size: 18pt;
+  text-align: center;
+  color: #fdb5ea ;
+  border: 1.5pt solid #68c0f3;
+}
+button{
+  font-size: 18pt;
+  width: 100pt;
+  height: 25pt;
+  background-color: #ffffff;
+  color: #fdb5ea ;
+  border: 1.5pt solid #68c0f3;
+  margin-top: 5pt;
+ margin-bottom: 5pt;
+}
+#result{
+  color: #68c0f3;
+  font-weight: bold;
+  font-size: 20pt;
+}
+td {
+  width: 40pt;
+  height: 40pt;
+  background-color: #fdb5ea;
+  text-align: center;
+  color:#1c9efb;
+  font-weight: bold;
+  font-size: 25pt;
+}
+#winThreshold{
+  font-size: 18pt;
+  color: #fdb5ea ;
+  border: 1.5pt solid #68c0f3;
+  text-align: center;
+  width: 35pt;
+}
